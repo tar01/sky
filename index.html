@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Sky </title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="weather-icons-master/_docs/gh-pages/css/weather-icons.css"/>
+    <!-- If weather-icon file path can't be found, here's the cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css"/>
+</head>
+<body>
+    <div id="wrap"> 
+        <div id="temp-loc">
+            <h2 id="temp"></h2>
+            <p id="location"></p>
+        </div>
+
+    <div id="col">
+        <div id="icon"><img src="" alt="Weather Icon" id="img-icon"/></div>
+
+        <div id="info">
+            <ul>
+            <li id="humidity"></li>
+            <li id="wind"></li>
+            </ul>
+         </div>
+    </div>
+
+    <p id="offlineMsg"> Oh no! You appear to have lost connection to the internet. </p>
+    </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
